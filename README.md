@@ -1,12 +1,50 @@
-# React + Vite
+# YouTube Music Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based music player that integrates with the YouTube API to search and play videos.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search YouTube videos
+- Play videos with custom controls
+- Create and manage playlists
+- Volume and progress controls
+- Responsive design
 
-## Expanding the ESLint configuration
+## Setup
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+```bash
+git clone https://github.com/thamaraiselvan13/youtube-music-player.git
+cd youtube-music-player
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Create a `.env` file in the root directory and add your YouTube API key:
+```bash
+VITE_YOUTUBE_API_KEY=your_youtube_api_key_here
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+## Environment Variables
+
+- `VITE_YOUTUBE_API_KEY`: Your YouTube Data API v3 key
+
+## Technologies Used
+
+- React
+- Vite
+- YouTube Data API v3
+- Axios
+- React Icons
+
+## License
+
+MIT
